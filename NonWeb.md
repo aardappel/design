@@ -11,7 +11,11 @@ environments, which
 [feature testing](FeatureTest.md) and
 [dynamic linking](FutureFeatures.md#dynamic-linking) will make discoverable and
 usable.
-  
+
+Non-Web environments may include JavaScript interpreters (e.g. node.js), however
+WebAssembly is also being designed to be capable of being executed without a
+JavaScript interpreter present.
+
 Where there is overlap between the Web and popular non-Web environments,
 shared specs could be proposed, but this would be separate from the WebAssembly
 spec. A symmetric example in JavaScript would be the
